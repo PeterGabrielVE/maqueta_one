@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gabagabs</title>
+	<link rel="stylesheet" href="css/navbar.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/tabla-precios.css">
+</head>
+<body>
+	<nav>
+		<button class="nav-boton" onclick="accion()">Menú</button>
+		<a href="#" class="nav-enlace desaparece">Inicio</a>
+		<a href="#" class="nav-enlace desaparece">Nosotros</a>
+		<a href="#" class="nav-enlace desaparece">Servicios</a>
+		<a href="#" class="nav-enlace desaparece">Contacto</a>
+	</nav>
+	<section class="container flex text-center">
+		<div class="columna">
+			<h2>PLAN UNO</h2>
+			<p class="precio">$500</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.?</p>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p> Ducimus at maiores eligendi ipsam unde nihil placeat neque hic qui voluptatum quod saepe voluptate,</p>
+			<p> eius error aperiam laboriosam incidunt, quasi reprehenderit!</p>
+			<hr>
+			<a href="#" class="btn-precio">Comprar</a>
+		</div>
+		<div class="columna">
+			<h2>PLAN UNO</h2>
+			<p class="precio">$500</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.?</p>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p> Ducimus at maiores eligendi ipsam unde nihil placeat neque hic qui voluptatum quod saepe voluptate,</p>
+			<p> eius error aperiam laboriosam incidunt, quasi reprehenderit!</p>
+			<hr>
+			<a href="#" class="btn-precio">Comprar</a>
+		</div>
+		<div class="columna">
+			<h2>PLAN UNO</h2>
+			<p class="precio">$500</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.?</p>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p> Ducimus at maiores eligendi ipsam unde nihil placeat neque hic qui voluptatum quod saepe voluptate,</p>
+			<p> eius error aperiam laboriosam incidunt, quasi reprehenderit!</p>
+			<hr>
+			<a href="#" class="btn-precio">Comprar</a>
+		</div>
+		<div class="columna">
+			<h2>PLAN UNO</h2>
+			<p class="precio">$500</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.?</p>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p> Ducimus at maiores eligendi ipsam unde nihil placeat neque hic qui voluptatum quod saepe voluptate,</p>
+			<p> eius error aperiam laboriosam incidunt, quasi reprehenderit!</p>
+			<hr>
+			<a href="#" class="btn-precio">Comprar</a>
+		</div>
+	</section>	
+
+</body>
+
+<script>
+	function accion() {
+		console.log("Esta funcionando mi boton");
+		var ancla = document.getElementsByClassName('nav-enlace');
+	for(var i = 0; i < ancla.length; i++){
+		ancla[i].classList.toggle('desaparece');
+	}
+}
+</script>
+
+
+</html>
